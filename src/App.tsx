@@ -494,7 +494,7 @@ export default function App() {
       title: apparel.title,
       resolvedSize,
       commissionEst: commissionEst.toFixed(2),
-      url: `https://www.retailer-redirect.com/partner/cognifit?brand=${apparel.brand.toLowerCase()}&size=${resolvedSize}`
+      url: `https://www.retailer-redirect.com/partner/zarevat?brand=${apparel.brand.toLowerCase()}&size=${resolvedSize}`
     });
 
     setTimeout(() => {
