@@ -23,6 +23,7 @@ import {
   MapPin
 } from "lucide-react";
 import { motion } from "motion/react";
+import zareveLogo from "../../assets/zarivat-logp.png";
 
 interface PublicLandingProps {
   gender: string;
@@ -202,6 +203,15 @@ export default function PublicLanding({
           
           {/* LEFT - Editorial Hook */}
           <div className="lg:col-span-6 space-y-6" id="hero-left">
+            {/* Zarevat Logo */}
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              <img src={zareveLogo} alt="Zarevat Logo" className="h-12 w-auto mb-6" />
+            </motion.div>
+
             <motion.div 
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
