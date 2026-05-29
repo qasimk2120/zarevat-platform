@@ -1,0 +1,6 @@
+{
+  "name": "Zarevat",
+  "description": "Regional & Community Fit Intelligence Platform built on community outcomes and local customer feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
