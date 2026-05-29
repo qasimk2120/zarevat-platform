@@ -281,7 +281,7 @@ export default function PublicLanding({
                 className="w-full sm:w-auto bg-indigo-650 hover:bg-indigo-600 text-white font-bold text-xs px-8 py-4 rounded-xl transition duration-300 shadow-lg shadow-indigo-600/10 flex items-center justify-center gap-2 cursor-pointer border border-transparent hover:scale-101 active:scale-99"
                 id="btn-match-profile"
               >
-                <Ruler className="h-4.5 w-4.5 text-emerald-400 animate-pulse" />
+                <img src={zareveLogo} alt="Zarevat" className="h-4.5 w-4.5 animate-pulse" />
                 Find My Fitting Match
               </button>
               <a
